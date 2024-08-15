@@ -1,0 +1,212 @@
+body, html {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 100%;
+  margin: 0;
+  color: white;
+  background-image: linear-gradient(to bottom, #030455, #200404 90%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* overflow: auto; Important Value for Responsize*/
+  /* overflow-x: hidden; (horizontal scrolling disabled)*/
+  overflow: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ h1 {
+   text-align: center;
+ }
+
+/* Navigation Bar*/
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav div { 
+  flex: 1;
+  white-space: nowrap;
+}
+
+nav img {
+  height: 30px;
+  margin: 8px;
+}
+
+nav p {
+  margin: 0px 20px;
+  display: flex;
+}
+
+.tab, .icon {
+  color: white;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.tab:hover, .icon:hover {
+  color: red;
+}
+
+/* Footer*/
+footer p {
+  text-align: center;
+}
+
+/* Contact Page */
+#contactBox {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 50%;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  justify-content:space-between;
+  padding: 5px;
+}
+
+.content label {
+  display: block;
+  width: 90px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.column div {
+  padding: 5px;
+  display: flex;
+}
+
+input[type=email], input[type=text], textarea {
+  flex: 1;
+}
+
+.email {
+  flex-direction: column;
+  flex: 1;
+}
+
+div.email {
+  padding: 0;
+}
+
+div.emailDiv {
+  padding-bottom: 0;
+}
+
+#message {
+  height: 50px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  justify-content: center;
+  padding-left: 8px;  
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  align-self: center;
+}
+
+.info div {
+  margin: 10px 0;
+}
+
+#submit {
+  width: 70px;
+  margin-top: 7px;
+  margin-left: 50%;
+}
+
+/* Email Validation*/
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+}
+
+/* Resume Page*/
+#resume {
+  margin: 20px;
+  margin-top: 50px;
+  max-width: 700px;
+  font-size: 17px;
+}
+
+#resume h1 {
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+#skills {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}
+
+#resume #links {
+  text-align: center;
+}
+
+#resume a, #first a {
+  color: #29b2d4;
+}
+
+/* Project Page*/
+#first {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 15px;
+}
+
+#first p {
+  font-size: 18px;
+}
+
+#first img {
+  width: 400px;
+}
+
+/* About Page*/
+#about {
+  display: flex;
+  font-size: 20px;
+  max-width: 800px;
+}
+
+#portrait {
+  width: 300px; 
+  margin-right: 17px;
+  border-radius: 10px;
+}
+
