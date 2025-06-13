@@ -176,12 +176,18 @@ div.emailDiv {
   text-align: center;
 }
 
-#resume a, #first a {
+#resume a, #first a, #second a {
   color: #29b2d4;
 }
 
 /* Project Page*/
-#first {
+
+#project-main {
+  display: flex;
+  flex-direction: row;
+}
+
+#first, #second {
   max-width: 500px;
   display: flex;
   flex-direction: column;
@@ -189,13 +195,15 @@ div.emailDiv {
   margin: 15px;
 }
 
-#first p {
+#first p, #second p {
   font-size: 18px;
 }
 
-#first img {
+#first img, #second img {
   width: 400px;
+  height: 250px;
 }
+
 
 /* About Page*/
 #about {
