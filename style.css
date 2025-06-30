@@ -6,7 +6,6 @@ body, html {
   background-image: linear-gradient(to bottom, #030455, #200404 90%);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* overflow: auto; Important Value for Responsize*/
   /* overflow-x: hidden; (horizontal scrolling disabled)*/
   overflow: auto;
 }
@@ -152,6 +151,20 @@ div.emailDiv {
   margin-top: 5px;
   padding: 0;
 }
+
+/* Certificates Page*/
+#certificate {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.certificate-img {
+  width: 600px;
+  height: auto;
+  margin-top: 40px;
+}
+
 
 /* Resume Page*/
 #resume {

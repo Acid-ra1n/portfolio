@@ -204,6 +204,13 @@
     margin-bottom: 10px;
   }
 
+  /* Certificate*/
+  .certificate-img {
+    width: 400px;
+    height: auto;
+    margin-top: 40px;
+  }
+
   /* About*/
   #about {
     flex-direction: column;
@@ -238,6 +245,13 @@
 /* Contact*/
   #contactBox {
     width: 90%;
+  }
+
+  /* Certificate*/
+  .certificate-img {
+    width: 350px;
+    height: auto;
+    margin-top: 40px;
   }
 
   /* Projects*/
